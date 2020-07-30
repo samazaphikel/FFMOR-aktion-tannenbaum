@@ -1,0 +1,43 @@
+{
+    "name": "sebastianweidemann/ff-mor-aktion-tannenbaum",
+    "description": "Feuerwehr Moritzberg Aktion Tannenabum Registrierung",
+    "keywords": [
+        "tannenbaum",
+        "bundle"
+    ],
+    "type": "contao-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Weidemann",
+            "email": "sama.zaphikel@gmail.com",
+            "homepage": "-",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sebastianweidemann/ff-mor-aktion-tannenbaum/issues",
+        "source": "https://github.com/sebastianweidemann/ff-mor-aktion-tannenbaum"
+    },
+    "require": {
+        "contao/core-bundle": "^4.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sebastianweidemann\\FfMorAktionTannenbaum\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config",
+            "src/Resources/contao/dca",
+            "src/Resources/contao/languages",
+            "src/Resources/contao/templates"
+        ]
+    },
+    "extra": {
+        "contao-manager-plugin": "Sebastianweidemann\\FfMorAktionTannenbaum\\ContaoManager\\Plugin"
+    },
+    "version": "1.0"
+}

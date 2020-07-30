@@ -1,0 +1,17 @@
+services:
+    _defaults: { autowire: true, autoconfigure: true, public: true }
+
+
+
+
+
+    # Contao frontend module Sebastianweidemann\FfMorAktionTannenbaum\Controller\FrontendModule\MembersModuleController
+    Sebastianweidemann\FfMorAktionTannenbaum\Controller\FrontendModule\MembersModuleController:
+        tags:
+        - { name: contao.frontend_module, category: aktion_tannenbaum, template: mod_members, type: members_module }
+        - { name: container.service_subscriber }
+        public: true
+    # Custom route
+    Sebastianweidemann\FfMorAktionTannenbaum\Controller\MyCustomController: ~
+
+

@@ -1,0 +1,5 @@
+# config/routes.yml
+sebastianweidemann.ff_mor_aktion_tannenbaum.controller:
+    resource: ../../../src/Controller
+    type: annotation
+
