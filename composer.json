@@ -11,13 +11,13 @@
         {
             "name": "Sebastian Weidemann",
             "email": "sama.zaphikel@gmail.com",
-            "homepage": "-",
+            "homepage": "https://github.com/samazaphikel/FFMOR-aktion-tannenbaum",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/sebastianweidemann/ff-mor-aktion-tannenbaum/issues",
-        "source": "https://github.com/sebastianweidemann/ff-mor-aktion-tannenbaum"
+        "issues": "https://github.com/samazaphikel/FFMOR-aktion-tannenbaum/issues",
+        "source": "https://github.com/samazaphikel/FFMOR-aktion-tannenbaum"
     },
     "require": {
         "contao/core-bundle": "^4.9"

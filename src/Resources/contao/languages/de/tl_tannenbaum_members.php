@@ -5,7 +5,7 @@
  * @author     Sebastian Weidemann
  * @package    FF Mor Aktion Tannenbaum
  * @license    MIT
- * @see        https://github.com/sebastianweidemann/ff-mor-aktion-tannenbaum
+ * @see
  *
  */
 
